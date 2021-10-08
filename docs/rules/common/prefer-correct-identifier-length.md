@@ -1,0 +1,45 @@
+# Prefer correct identifier length
+
+![Configurable](https://img.shields.io/badge/-configurable-informational)
+
+## Rule id
+
+prefer-correct-identifier-length
+
+## Description
+
+The rule checks the length of variable names.
+
+The rule can be configured using the fields `max-identifier-length` and `min-identifier-length`. By
+default `max-identifier-length = 300` and `min-identifier-length = 3`. You can also add
+exceptions `exceptions`.
+
+### Config example
+
+```yaml
+dart_code_metrics:
+  ...
+  rules:
+    ...
+    exceptions': [ 'z' ]
+    max-identifier-length: 30
+    min-identifier-length: 4
+```
+
+### Example
+
+Bad:
+
+```dart
+
+var x = 0; //length 1
+var multiplatformConfigurationPoint = 0; //length 31
+```
+
+Good:
+
+```dart
+
+var property = 0; //length 8
+var multiplatformConfiguration = 0; //length 26
+```
