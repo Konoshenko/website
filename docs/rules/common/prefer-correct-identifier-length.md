@@ -10,7 +10,7 @@ prefer-correct-identifier-length
 
 The rule checks the length of variable names.
 
-The rule can be configured using the fields `max-identifier-length` and `min-identifier-length`. By
+The rule can be configured using fields `max-identifier-length` and `min-identifier-length`. By
 default `max-identifier-length = 300` and `min-identifier-length = 3`. You can also add
 exceptions `exceptions`.
 
@@ -21,7 +21,7 @@ dart_code_metrics:
   ...
   rules:
     ...
-    exceptions': [ 'z' ]
+    exceptions: [ 'z' ]
     max-identifier-length: 30
     min-identifier-length: 4
 ```
@@ -32,14 +32,14 @@ Bad:
 
 ```dart
 
-var x = 0; //length 1
-var multiplatformConfigurationPoint = 0; //length 31
+var x = 0; // length equals 1
+var multiplatformConfigurationPoint = 0; // length equals 31
 ```
 
 Good:
 
 ```dart
 
-var property = 0; //length 8
-var multiplatformConfiguration = 0; //length 26
+var property = 0; // length equals 8
+var multiplatformConfiguration = 0; // length equals 26
 ```
