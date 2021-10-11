@@ -8,7 +8,7 @@ prefer-correct-identifier-length
 
 ## Description
 
-The rule checks the length of variable names.
+The rule checks the length of variable names in classes, functions, extensions, mixins, and also checks the value of enum.
 
 The rule can be configured using fields `max-identifier-length` and `min-identifier-length`. By
 default `max-identifier-length = 300` and `min-identifier-length = 3`. You can also add
