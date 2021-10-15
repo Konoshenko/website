@@ -28,6 +28,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 - [no-object-declaration](./common/no-object-declaration.md)
 - [prefer-conditional-expressions](./common/prefer-conditional-expressions.md) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
 - [prefer-correct-identifier-length](./common/prefer-correct-identifier-length.md) &nbsp;  [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/prefer-correct-identifier-length.md#config-example)
+- [prefer-correct-type-name](./common/prefer-correct-type-name.md) &nbsp;  [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/prefer-correct-type-name.md#config-example)
 - [prefer-match-file-name](common/prefer-match-file-name.md)
 - [prefer-trailing-comma](./common/prefer-trailing-comma.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/prefer-trailing-comma.md#config-example) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
 
