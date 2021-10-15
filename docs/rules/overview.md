@@ -38,6 +38,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 - [avoid-returning-widgets](./flutter/avoid-returning-widgets.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./flutter/avoid-returning-widgets.md#config-example)
 - [avoid-unnecessary-setstate](./flutter/avoid-unnecessary-setstate.md)
 - [avoid-wrapping-in-padding](./flutter/avoid-wrapping-in-padding.md)
+- [prefer-const-border-radius](./flutter/prefer-const-border-radius.md) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
 - [prefer-extracting-callbacks](./flutter/prefer-extracting-callbacks.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./flutter/prefer-extracting-callbacks.md#config-example)
 - [prefer-single-widget-per-file](./flutter/prefer-single-widget-per-file.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./flutter/prefer-single-widget-per-file.md#config-example)
 

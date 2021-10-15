@@ -42,7 +42,8 @@ The following table shows which commands you can use with the tool:
 | Command            | Example of use                                            | Short description                                         |
 | ------------------ | --------------------------------------------------------- | --------------------------------------------------------- |
 | analyze            | dart run dart_code_metrics:metrics analyze lib            | Reports code metrics, rules and anti-patterns violations. |
-| check-unused-files | dart run dart_code_metrics:metrics check-unused-files lib | Checks unused \*.dart files.                              |
+| check-unused-files | dart run dart_code_metrics:metrics check-unused-files lib | Checks unused \*.dart files. |
+| check-unused-l10n  | dart run dart_code_metrics:metrics check-unused-l10n lib | Check unused localization in *.dart files. |
 
 For additional help on any of the commands, enter `dart run dart_code_metrics:metrics help <command>`
 
