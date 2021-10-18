@@ -13,6 +13,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 
 - [avoid-ignoring-return-values](./common/avoid-ignoring-return-values.md)
 - [avoid-late-keyword](./common/avoid-late-keyword.md)
+- [avoid-nested-conditional-expressions](./common/avoid-nested-conditional-expressions.md)
 - [avoid-non-null-assertion](./common/avoid-non-null-assertion.md)
 - [avoid-unused-parameters](./common/avoid-unused-parameters.md)
 - [binary-expression-operand-order](./common/binary-expression-operand-order.md) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
