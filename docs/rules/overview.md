@@ -13,7 +13,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 
 - [avoid-ignoring-return-values](./common/avoid-ignoring-return-values.md)
 - [avoid-late-keyword](./common/avoid-late-keyword.md)
-- [avoid-nested-conditional-expressions](./common/avoid-nested-conditional-expressions.md)
+- [avoid-nested-conditional-expressions](./common/avoid-nested-conditional-expressions.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/member-ordering.md#config-example)
 - [avoid-non-null-assertion](./common/avoid-non-null-assertion.md)
 - [avoid-unused-parameters](./common/avoid-unused-parameters.md)
 - [binary-expression-operand-order](./common/binary-expression-operand-order.md) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
@@ -29,6 +29,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 - [no-object-declaration](./common/no-object-declaration.md)
 - [prefer-conditional-expressions](./common/prefer-conditional-expressions.md) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
 - [prefer-correct-identifier-length](./common/prefer-correct-identifier-length.md) &nbsp;  [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/prefer-correct-identifier-length.md#config-example)
+- [prefer-first](./common/prefer-first.md) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
 - [prefer-match-file-name](common/prefer-match-file-name.md)
 - [prefer-trailing-comma](./common/prefer-trailing-comma.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/prefer-trailing-comma.md#config-example) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
 
