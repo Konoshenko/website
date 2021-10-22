@@ -30,7 +30,7 @@ dart_code_metrics:
 Bad:
 
 ```dart
-class example { // first character is lowercase 
+class example { // not capitalized
   //...
 } 
 class ex { // length equals 2
