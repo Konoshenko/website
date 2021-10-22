@@ -10,8 +10,7 @@ prefer-correct-type-name
 
 Rule checks that the type name should only contain alphanumeric characters, start with an uppercase character and span between `min-length` and `max-length` characters in length.
 
-The rule can be configured using fields `min-length` and `max-length`. By
-default it's `min-length = 3` and `max-length = 40`. You can also configure type name exceptions with `excluded` option.
+The rule can be configured using fields `min-length` and `max-length`. By default it's `min-length = 3` and `max-length = 40`. You can also configure type name exceptions with `excluded` option.
 
 ### Config example
 
@@ -22,8 +21,8 @@ dart_code_metrics:
     ...
     - prefer-correct-type-name:
       excluded: [ 'exampleExclude' ]
-      min-length: 40
-      mаx-length: 3
+      min-length: 3
+      mаx-length: 40
 ```
 
 ### Example
@@ -31,7 +30,6 @@ dart_code_metrics:
 Bad:
 
 ```dart
-
 class example { // first character is lowercase 
   //...
 } 
@@ -46,7 +44,6 @@ class multiplatformConfigurationPointWithExtras { // length equals 41
 Good:
 
 ```dart
-
 class Example { // length equals 7
   //...
 }
