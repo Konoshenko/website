@@ -20,9 +20,9 @@ dart_code_metrics:
   rules:
     ...
     - prefer-correct-type-name:
-      excluded: [ 'exampleExclude' ]
-      min-length: 3
-      mаx-length: 40
+        excluded: [ 'exampleExclude' ]
+        min-length: 3
+        mаx-length: 40
 ```
 
 ### Example
